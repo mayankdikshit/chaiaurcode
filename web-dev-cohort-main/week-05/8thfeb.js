@@ -41,3 +41,13 @@ for (let i=0; i<teas.length; i++){
         console.log(caffinatedMyTeas++);
     }
 }
+
+//8
+
+const uppercase = [];
+
+for (let i = 0; i < teas.length; i++) {
+    uppercase.push(teas[i].toUpperCase());
+}
+console.log(uppercase);
+
