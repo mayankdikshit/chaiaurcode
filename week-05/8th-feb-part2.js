@@ -7,20 +7,21 @@ p1 = {
     }
 }
 
-p2 = {
-     ...p1
-}
-
 // p2 = {
-//     newName : p1.name,
-//     newCity : p1.city, 
-//     Newddress : p1.address,
+//      ...p1
 // }
 
-p2.Newname = "jerry";
+p2 = {
+    newName : p1.name,
+    newCity : p1.city, 
+    Newddress : p1.address,
+}
 
-console.log(p1)
+p2.newName = "jerry"
+
 console.log(p2)
+console.log(p1)
+
 
 
 
