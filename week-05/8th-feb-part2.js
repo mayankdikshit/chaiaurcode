@@ -18,10 +18,17 @@ p2 = {
 }
 
 p2.newName = "jerry"
+p1.address.h = 2;
 
 console.log(p2)
 console.log(p1)
 
 
 
+const p1_toString = JSON.stringify(p1);
 
+console.log(p1_toString);
+
+let again_convertingItToObject = JSON.parse(p1_toString);
+
+console.log(again_convertingItToObject);
