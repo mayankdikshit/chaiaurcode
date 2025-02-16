@@ -1,14 +1,14 @@
 let fname = "mayank";
 
-let name = fname;
+let userName = fname;
 
 console.log(fname);
-console.log(name);
+console.log(userName);
 
 
-name = "abhishek";
+userName = "abhishek";
 
 console.log(fname);
-console.log(name);
+console.log(userName);
 
 
