@@ -12,4 +12,14 @@ console.log(fname);
 console.log(userName);
 
 
-understood;
+p1 = {
+    name : "mayank",
+    age : 26,
+    city : "meerut"
+}
+
+p2 = {
+     ...p1
+}
+
+console.log(p2)
