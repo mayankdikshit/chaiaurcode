@@ -1,10 +1,14 @@
-let fname = 'hitesh';
-let fname2 = fname;
+let fname = "mayank";
+
+let name = fname;
+
+console.log(fname);
+console.log(name);
 
 
-console.log(fname)
-console.log(fname2);
+name = "abhishek";
 
-fname2 = "piyush";
+console.log(fname);
+console.log(name);
 
-console.log(fname2)
+
